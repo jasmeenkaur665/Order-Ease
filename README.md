@@ -3,7 +3,14 @@ OrderEase is a simple and user-friendly Python Tkinter GUI application developed
 This application allows users to order pizza by selecting the pizza size, choosing multiple toppings, and entering their name, phone number, and address before placing an order.
 
 ---
-
+HOW TO Run The Application:
+   - On Windows:
+     - Double-click KaurJasmeenFinalProject.py, or
+     - Open Command Prompt, navigate to the folder, and run:
+       python KaurJasmeenFinalProject.py
+   - On Mac:
+     - Open Terminal, navigate to the folder, and run:
+       python3 KaurJasmeenFinalProject.py
 ## 🎯 Project Purpose
 This project was developed as part of a Python GUI learning exercise using Tkinter.  
 It demonstrates skills in GUI design, input validation, image handling with Pillow, and user-friendly navigation.
@@ -37,3 +44,8 @@ It demonstrates skills in GUI design, input validation, image handling with Pill
 - Pillow Library (For image support):
   ```bash
   pip install pillow
+  
+✅ Developer Information:
+Jasmeen Kaur
+GitHub: https://github.com/jasmeenkaur665/Order-Ease
+
