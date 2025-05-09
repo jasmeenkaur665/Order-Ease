@@ -1,29 +1,39 @@
-# OrderEase - Pizza Ordering System
+## 📌 Description
+OrderEase is a simple and user-friendly Python Tkinter GUI application developed by **Jasmeen Kaur**.  
+This application allows users to order pizza by selecting the pizza size, choosing multiple toppings, and entering their name, phone number, and address before placing an order.
 
-## Description
-OrderEase is a simple Python Tkinter GUI application that allows users to order pizza. Users can select the pizza size, choose multiple toppings, and enter their name and phone number before submitting an order.
+---
 
-## Features
-- Two windows (Main Menu and Order Summary)
-- Pizza size selection (Small, Medium, Large)
-- Multiple topping selections (Cheese, Pepperoni, Mushrooms, Olives)
-- Customer input validation (Name required, Phone must be numeric)
-- Buttons for navigation (Next, Submit Order, Back, Exit)
+## 🎯 Project Purpose
+This project was developed as part of a Python GUI learning exercise using Tkinter.  
+It demonstrates skills in GUI design, input validation, image handling with Pillow, and user-friendly navigation.
 
-## Requirements
-- Python 3.x
-- tkinter (comes pre-installed)
-- Optional: Pillow library for images (not needed if you skip loading images)
+---
 
-## How to Run
-1. Save the project files (OrderEase.py + pizza1.png + pizza2.png) in the same folder.
-2. Open terminal or IDE and run the script:
-## Usage
-- Select your pizza size using radio buttons.
-- Choose your toppings using checkboxes.
-- Enter your name and phone number.
-- Click "Next" ➔ "Submit Order" to complete the order.
+## 🚀 Features
+- ✅ **Two Windows:**
+  - Main Menu (Pizza Selection)
+  - Order Summary (Customer Details and Order Confirmation)
+- ✅ **Pizza Size Selection:**
+  - Small, Medium, Large (Radio Buttons)
+- ✅ **Multiple Topping Selections (Checkboxes):**
+  - Cheese, Pepperoni, Mushrooms, Olives, Onions, Tomatoes
+- ✅ **Customer Details Input (Order Summary):**
+  - Name, Address, Phone Number
+- ✅ **Image Support:**
+  - Two Pizza Images (`pizza1.png`, `pizza2.png`)
+- ✅ **Error Handling with Validation Messages:**
+  - ❌ Name cannot be empty.
+  - ❌ Address cannot be empty.
+  - ❌ Phone number must be numeric.
+- ✅ **Buttons for Navigation:**
+  - Next, Submit Order, Back, Exit
 
-## Developer
-- Jasmeen Kaur
-- GitHub: [jasmeenkaur665](https://github.com/jasmeenkaur665)
+---
+
+## 📥 Requirements
+- Python 3.x (Make sure Python is installed)
+- Tkinter (Pre-installed with Python)
+- Pillow Library (For image support):
+  ```bash
+  pip install pillow
